@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .env
+Chat App.code-workspace
 
 # testing
 /coverage
