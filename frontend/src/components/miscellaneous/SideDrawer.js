@@ -101,8 +101,9 @@ function SideDrawer() {
       <Box display="flex" justifyContent="space-between" alignItems="center" bgGradient='(160deg, white, #a0bec6)' w="100%" p="5px 10px 5px 10px" borderWidth="0px">
         <Tooltip label="Search Users to chat" hasArrow placement="bottom-end" bg='#c78cc7'>
           <Button variant="ghost" onClick={onOpen}>
-            <Text display={{ base: "none", md: "flex" }} px={1}>
-              Click here to search
+            <i className="fas fa-search"></i>
+            <Text d={{ base: "none", md: "flex" }} px={4}>
+              Search User
             </Text>
           </Button>
         </Tooltip>
